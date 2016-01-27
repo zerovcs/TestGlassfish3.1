@@ -1,0 +1,12 @@
+<module>
+
+    <!-- nisem poskusil, ampak se mi zdi, da mora biit takole, ker je spodnji rule v HTTP.gwt.xml tudi definiran in mora overridet tega -->	
+<!-- 	<replace-with class="com.google.gwt.http.client.MyRequestBuilder.MyRequestImpl">
+		<when-type-is class="com.google.gwt.http.client.Request.RequestImpl" />
+    </replace-with> 
+  -->
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+	<inherits name="com.google.gwt.logging.Logging" />
+	<entry-point class="si.test.client.Demo"/>
+	<inherits name="com.google.gwt.user.User"/>
+</module>
